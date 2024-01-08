@@ -1,7 +1,7 @@
 import pygame as pg
 from time import time
-from conf import *
-from game import Game
+from doc.conf import *
+from levels.game import Game
 
 
 class Menu:
@@ -13,7 +13,7 @@ class Menu:
         self.title_rect = self.title_text.get_rect(center=(WIDTH // 2, 175))
         self.play_text = self.main.font3.render("Press ENTER to Play", True, GREEN)
         self.play_rect = self.play_text.get_rect(center=(WIDTH // 2, HEIGHT - 100))
-        self.controls_text = self.main.font.render("WASD to Move, SPACE to shoot, ESC to exit, Good Luck!", True, WHITE)
+        self.controls_text = self.main.font.render("WASD to Move, SPACE to shoot, R to reload, ESC to exit, Good Luck!", True, WHITE)
         self.controls_rect = self.controls_text.get_rect(bottomleft=(10, HEIGHT - 10))
 
         self.time = time()

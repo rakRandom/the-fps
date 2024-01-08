@@ -1,6 +1,6 @@
 import pygame as pg
-from conf import *
-from bullet import Bullet
+from doc.conf import *
+from objects.bullet import Bullet
 import math
 
 

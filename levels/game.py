@@ -1,7 +1,7 @@
 import pygame as pg
-from conf import *
-from player import Player
-from enemy import Enemy
+from doc.conf import *
+from objects.player import Player
+from objects.enemy import Enemy
 from time import sleep
 
 

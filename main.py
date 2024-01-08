@@ -1,7 +1,7 @@
 import pygame as pg
 import sys
-from conf import *
-from menu import Menu
+from doc.conf import *
+from levels.menu import Menu
 
 
 class Main:
