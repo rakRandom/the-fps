@@ -1,0 +1,5 @@
+RES = WIDTH, HEIGHT = 720, 480
+WHITE = (255, 255, 255)
+BLACK = (0, 0, 0)
+GREEN = (6, 204, 42)
+RED = (189, 2, 2)
